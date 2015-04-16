@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E23945E1ABE8CD100E7F585 /* SnapBehaviorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E23945D1ABE8CD100E7F585 /* SnapBehaviorViewController.m */; };
 		8EA06C4B1ABA893600388988 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA06C4A1ABA893600388988 /* Foundation.framework */; };
 		8EA06C4D1ABA893600388988 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA06C4C1ABA893600388988 /* CoreGraphics.framework */; };
 		8EA06C4F1ABA893600388988 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA06C4E1ABA893600388988 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E23945C1ABE8CD100E7F585 /* SnapBehaviorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapBehaviorViewController.h; sourceTree = "<group>"; };
+		8E23945D1ABE8CD100E7F585 /* SnapBehaviorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapBehaviorViewController.m; sourceTree = "<group>"; };
 		8EA06C471ABA893600388988 /* DynamicUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EA06C4A1ABA893600388988 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8EA06C4C1ABA893600388988 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -122,6 +125,8 @@
 				8EA06C631ABA893600388988 /* ViewController.m */,
 				8EA06C651ABA893600388988 /* Images.xcassets */,
 				8EA06C511ABA893600388988 /* Supporting Files */,
+				8E23945C1ABE8CD100E7F585 /* SnapBehaviorViewController.h */,
+				8E23945D1ABE8CD100E7F585 /* SnapBehaviorViewController.m */,
 			);
 			path = DynamicUIKit;
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E23945E1ABE8CD100E7F585 /* SnapBehaviorViewController.m in Sources */,
 				8EA06C641ABA893600388988 /* ViewController.m in Sources */,
 				8EA06C5B1ABA893600388988 /* AppDelegate.m in Sources */,
 				8EA06C571ABA893600388988 /* main.m in Sources */,
@@ -470,6 +476,7 @@
 				8EA06C7E1ABA893700388988 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EA06C7F1ABA893700388988 /* Build configuration list for PBXNativeTarget "DynamicUIKitTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +485,7 @@
 				8EA06C811ABA893700388988 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
